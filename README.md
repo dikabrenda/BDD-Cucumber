@@ -37,11 +37,11 @@ Create automated test for creating jurnal sales invoice
 
         Scenarios: 
         | username               	| password                  | status 	|
-        | dikabrenda@outlook.com 	| 8SQVv/p9jVScEs4/2CZsLw==  | Success 	|
+        | dikabrenda@outlook.com 	| 8SQVv/p9jVScEs4/2CZsLw==  | Success s|
         | dikabrenda@outlook.com 	| 8D/NpYLiC+arNBHcGNcNpg==  | Failed 	|
-        | dikabrendaa@outlook.com   | 8SQVv/p9jVScEs4/2CZsLw==  | Failed 	|
-        | ' or ''='					| ' or ''='				    | Failed 	|
-        | ' or ''&' 				| ' or ''&' 				| Failed	| 
+        | dikabrendaa@outlook.com | 8SQVv/p9jVScEs4/2CZsLw==  | Failed 	|
+        | ' or ''='					      | ' or ''='				          | Failed 	|
+        | ' or ''&' 				      | ' or ''&' 				        | Failed	| 
         
     @SalesInvoice
     Feature: Create Sales Invoice
