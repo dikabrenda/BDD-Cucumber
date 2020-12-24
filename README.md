@@ -33,13 +33,13 @@ Create automated test for creating jurnal sales invoice
             Given User navigate to jurnal id
             And User enter username as <username> and password as <password>
             When User click sign in button
-            Then User verify the <status> in step
+            Then User verify the <condition> in step
 
         Scenarios: 
-        | username               	| password                  | status 	|
-        | dikabrenda@outlook.com 	| 8SQVv/p9jVScEs4/2CZsLw==  | Success s|
-        | dikabrenda@outlook.com 	| 8D/NpYLiC+arNBHcGNcNpg==  | Failed 	|
-        | dikabrendaa@outlook.com | 8SQVv/p9jVScEs4/2CZsLw==  | Failed 	|
+        | username               	| password                  | condition	        |
+        | dikabrenda@outlook.com 	| 8SQVv/p9jVScEs4/2CZsLw==  | success           |
+        | dikabrenda@outlook.com 	| 8D/NpYLiC+arNBHcGNcNpg==  | userNotExist 	    |
+        | dikabrendaa@outlook.com | 8SQVv/p9jVScEs4/2CZsLw==  | passwordNotExist 	|
         | ' or ''='					      | ' or ''='				          | Failed 	|
         | ' or ''&' 				      | ' or ''&' 				        | Failed	| 
         
