@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="58.195523">
+<testcase classname="Login Feature" name="Verify user login feature" time="22.932">
+<system-out><![CDATA[Given User navigate to jurnal id............................................passed
+And User enter username as dikabrenda@outlook.com and password as 8SQVv/p9jVScEs4/2CZsLw==.passed
+When User click sign in button..............................................passed
+Then User verify the Success in step........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Verify user login feature 2" time="17.574043">
+<system-out><![CDATA[Given User navigate to jurnal id............................................passed
+And User enter username as dikabrenda@outlook.com and password as 8D/NpYLiC+arNBHcGNcNpg==.passed
+When User click sign in button..............................................passed
+Then User verify the Failed in step.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Verify user login feature 3" time="17.68948">
+<system-out><![CDATA[Given User navigate to jurnal id............................................passed
+And User enter username as dikabrend@outlook.com and password as 8SQVv/p9jVScEs4/2CZsLw==.passed
+When User click sign in button..............................................passed
+Then User verify the Failed in step.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

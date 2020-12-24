@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_CucumberRunner" time="64.735" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TS_CucumberRunner" tests="1" failures="0" errors="0" time="64.735" skips="0" timestamp="2020-12-08 14:16:37" hostname="Dika Brenda Angkasa - dikabrenda" id="Test Suites/TS_CucumberRunner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BMT\\git\\mekari-qa-test\\Reports\\20201208_141626\\TS_CucumberRunner\\20201208_141626"/>
+         <property name="logFiles" value="C:\\Users\\BMT\\git\\mekari-qa-test\\Reports\\20201208_141626\\TS_CucumberRunner\\20201208_141626\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dika Brenda Angkasa - dikabrenda"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Firefox 83.0"/>
+         <property name="hostAddress" value="192.168.100.12"/>
+         <property name="sessionId" value="2fc07e7b-0edb-4a73-955d-99ba1d7ed262"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Cucumber Runner" time="61.762" classname="Test Cases/Cucumber Runner" status="PASSED">
+         <system-out><![CDATA[2020-12-08 14:16:40 - [TEST_CASE][PASSED] - Test Cases/Cucumber Runner: Test Cases/Cucumber Runner
+
+2020-12-08 14:16:41 - [TEST_STEP][PASSED] - runWithCucumberRunner(CucumberRunner): Run with 'CucumberRunner' was passed
+
+2020-12-08 14:16:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-08 14:16:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-08 14:16:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-08 14:16:59 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DIKABRENDA', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 30808, moz:profile: C:\Users\BMT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 192f4245-74a0-49be-a86d-3b07f1bf880d
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-08 14:16:59 - [MESSAGE][PASSED] - Navigate to 'https://sandbox-sso.mekari.com/users/sign_in' successfully
+
+2020-12-08 14:16:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-08 14:17:00 - [MESSAGE][PASSED] - Text 'dikabrenda@outlook.com' is set on object 'Object Repository/Login/username'
+
+2020-12-08 14:17:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/password'
+
+2020-12-08 14:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/signInButton' is clicked on
+
+2020-12-08 14:17:06 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-08 14:17:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-08 14:17:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-08 14:17:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-08 14:17:17 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DIKABRENDA', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1468, moz:profile: C:\Users\BMT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d46f6911-0050-49ea-80c3-feebaf387094
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-08 14:17:17 - [MESSAGE][PASSED] - Navigate to 'https://sandbox-sso.mekari.com/users/sign_in' successfully
+
+2020-12-08 14:17:17 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-08 14:17:18 - [MESSAGE][PASSED] - Text 'dikabrenda@outlook.com' is set on object 'Object Repository/Login/username'
+
+2020-12-08 14:17:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/password'
+
+2020-12-08 14:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/signInButton' is clicked on
+
+2020-12-08 14:17:24 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-08 14:17:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-08 14:17:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-08 14:17:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-08 14:17:36 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DIKABRENDA', ip: '192.168.100.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24864, moz:profile: C:\Users\BMT\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fc07e7b-0edb-4a73-955d-99ba1d7ed262
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-08 14:17:36 - [MESSAGE][PASSED] - Navigate to 'https://sandbox-sso.mekari.com/users/sign_in' successfully
+
+2020-12-08 14:17:36 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-08 14:17:37 - [MESSAGE][PASSED] - Text 'dikabrend@outlook.com' is set on object 'Object Repository/Login/username'
+
+2020-12-08 14:17:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/password'
+
+2020-12-08 14:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/signInButton' is clicked on
+
+2020-12-08 14:17:41 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-08 14:17:41 - [MESSAGE][PASSED] - Run with 'CucumberRunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-08 14:16:37 - [TEST_SUITE][INCOMPLETE] - TS_CucumberRunner: null]]></system-out>
+      <system-err><![CDATA[2020-12-08 14:16:37 - [TEST_SUITE][INCOMPLETE] - TS_CucumberRunner: null]]></system-err>
+   </testsuite>
+</testsuites>

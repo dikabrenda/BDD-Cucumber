@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_CucumberRunner,Chrome 87.0.4280.88,,,2020-12-08 14:08:56,2020-12-08 14:11:03,2m - 6.878s,FAILED
+,,,,,,,
+Test Cases/Cucumber Runner,Chrome 87.0.4280.88,,,2020-12-08 14:08:59,2020-12-08 14:11:03,2m - 3.815s,FAILED
+runWithCucumberRunner(CucumberRunner),Chrome 87.0.4280.88,,,2020-12-08 14:09:00,2020-12-08 14:11:03,2m - 2.392s,FAILED

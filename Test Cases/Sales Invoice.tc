@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>creating jurnal sales invoice</description>
+   <name>Sales Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f583957b-0370-4bcd-b599-6ba7a6de0fe9</testCaseGuid>
+</TestCaseEntity>

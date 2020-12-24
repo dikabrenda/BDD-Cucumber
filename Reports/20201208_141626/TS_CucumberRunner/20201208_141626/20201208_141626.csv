@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_CucumberRunner,Firefox 83.0,,,2020-12-08 14:16:37,2020-12-08 14:17:41,1m - 4.735s,PASSED
+,,,,,,,
+Test Cases/Cucumber Runner,Firefox 83.0,,,2020-12-08 14:16:40,2020-12-08 14:17:41,1m - 1.762s,PASSED
+runWithCucumberRunner(CucumberRunner),Firefox 83.0,,,2020-12-08 14:16:41,2020-12-08 14:17:41,1m - 0.170s,PASSED

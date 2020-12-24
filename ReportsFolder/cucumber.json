@@ -1,0 +1,268 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify user login feature",
+        "description": "",
+        "id": "login-feature;verify-user-login-feature;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16088752300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigate to jurnal id",
+            "match": {
+              "location": "LoginSteps.User_nagivate_to_jurnal_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1626337900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter username as dikabrenda@outlook.com and password as 8SQVv/p9jVScEs4/2CZsLw\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dikabrenda@outlook.com",
+                  "offset": 23
+                },
+                {
+                  "val": "8SQVv/p9jVScEs4/2CZsLw\u003d\u003d",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginSteps.User_enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2778761000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click sign in button",
+            "match": {
+              "location": "LoginSteps.User_click_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2390623900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verify the Success in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.User_verify_the_status_in_step(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@2.1"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify user login feature",
+        "description": "",
+        "id": "login-feature;verify-user-login-feature;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11219119200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigate to jurnal id",
+            "match": {
+              "location": "LoginSteps.User_nagivate_to_jurnal_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1372274400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter username as dikabrenda@outlook.com and password as 8D/NpYLiC+arNBHcGNcNpg\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dikabrenda@outlook.com",
+                  "offset": 23
+                },
+                {
+                  "val": "8D/NpYLiC+arNBHcGNcNpg\u003d\u003d",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginSteps.User_enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2156845600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click sign in button",
+            "match": {
+              "location": "LoginSteps.User_click_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2823064800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verify the Failed in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.User_verify_the_status_in_step(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@2.1"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify user login feature",
+        "description": "",
+        "id": "login-feature;verify-user-login-feature;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12663665400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigate to jurnal id",
+            "match": {
+              "location": "LoginSteps.User_nagivate_to_jurnal_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1253169900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter username as dikabrend@outlook.com and password as 8SQVv/p9jVScEs4/2CZsLw\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dikabrend@outlook.com",
+                  "offset": 23
+                },
+                {
+                  "val": "8SQVv/p9jVScEs4/2CZsLw\u003d\u003d",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginSteps.User_enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1338003900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click sign in button",
+            "match": {
+              "location": "LoginSteps.User_click_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2432172500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verify the Failed in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.User_verify_the_status_in_step(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@2.1"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  As a user i want login to Jurnal.id\n  so i can see jurnal homepage",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
