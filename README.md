@@ -1,8 +1,3 @@
-# Mekari #
-
-No.4
-Create automated test for creating jurnal sales invoice
-
 ### Scenario : ###
     1. User login into Jurnal
     2. User create sales invoice
