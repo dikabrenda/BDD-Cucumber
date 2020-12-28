@@ -1,4 +1,5 @@
 ### Scenario : ###
+```feature
     1. User login into Jurnal
     2. User create sales invoice
     2.1.1 Select dropdown existing customer on the list
@@ -12,7 +13,7 @@
     2.4.1 Input unit price
     2.5.1 Upload picture
     2.6.1 Verifying sales invoice
-
+```
 .
 .
 
