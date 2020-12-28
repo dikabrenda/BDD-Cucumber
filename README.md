@@ -1,5 +1,5 @@
 ### Scenario : ###
-```feature
+```java
     1. User login into Jurnal
     2. User create sales invoice
     2.1.1 Select dropdown existing customer on the list
@@ -18,6 +18,7 @@
 .
 
 #### BDD Cucumber for Katalon ###
+```java
     @Login
     Feature: Login Feature
   
@@ -126,3 +127,4 @@
         Given User on Create Sales Invoice Page with validID
         When User click create button
         Then User created sales invoice successfully
+```
