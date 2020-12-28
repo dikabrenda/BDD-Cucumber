@@ -1,5 +1,5 @@
 ### Scenario :
-```feature
+```text
     1. User login into Jurnal
     2. User create sales invoice
     2.1.1 Select dropdown existing customer on the list
@@ -37,8 +37,6 @@
         | dikabrenda@outlook.com | 8SQVv/p9jVScEs4/2CZsLw==  | success          |
         | dikabrenda@outlook.com | 8D/NpYLiC+arNBHcGNcNpg==  | userNotExist 	|
         | dikabrendaa@outlook.com | 8SQVv/p9jVScEs4/2CZsLw== | passwordNotExist |
-        | ' or ''='	| ' or ''='	| Failed 	|
-        | ' or ''&' | ' or ''&' | Failed	| 
         
     @SalesInvoice
     Feature: Create Sales Invoice
